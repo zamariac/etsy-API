@@ -36,15 +36,23 @@ var settings = {
 		var container = $('#etsy-info');
 
 		for (i = 0; i < 24; i++){
-			//console.log(response.results[i].Images[0].url_75x75);
+			console.log(response.results[i].Images[0]);
 
 			var imageUrl = response.results[i].Images[0].url_75x75;
 
 			$('<img src="' + imageUrl + '">').load(function(){
 				$(this).appendTo('#etsy-info');
 
+	//adding actual item link to image below not working why?
+			//var webLink = response.results[i].Images[0].listing_id;
+			//console.log(response.results[i].Images[0].listing_id);
 
-			})
+			//var divWrapper = $('<a href="//www.etsy.com/'+  +'"> </a>'); //display a inline block to format in css
+			//divWrapper.append(webLink);
+			//$('#etsy-info').append(divWrapper);
+
+
+			} )
 
 
 
