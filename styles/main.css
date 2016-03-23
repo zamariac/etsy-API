@@ -1,0 +1,42 @@
+a{
+	text-decoration: none;
+}
+
+nav{
+	overflow: hidden;
+	padding: 2em;
+	border-bottom: .1em black solid;
+}
+.left-nav{
+	float: left;
+}
+.right-nav{
+	float: right;
+}
+
+span{
+	border-left: .1em black solid
+}
+
+main{
+	background-color: #F5F5F1;
+	height: 60em;
+	overflow: hidden;
+	padding: 1em;
+}
+.category-menu{
+	float: left;
+	background-color: white;
+	padding: 1em;
+}
+.category-menu-link{
+	display: block;
+}
+.categories-results{
+	float: right;
+	padding: 1em;
+	width: 70%;
+
+#etsy-info{
+	width: 33%;
+}

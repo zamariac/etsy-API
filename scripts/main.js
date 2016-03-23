@@ -13,7 +13,7 @@ form.on('submit', function(e){
 	input.val('');
 	render(etsySearches);
 	console.log(etsySearches);
-	e.target.etsySearches;
+
 			
 });
 
@@ -43,7 +43,9 @@ var settings = {
 			$('<img src="' + imageUrl + '">').load(function(){
 				$(this).appendTo('#etsy-info');
 
+
 			})
+
 
 
 
